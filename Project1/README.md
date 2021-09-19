@@ -56,15 +56,15 @@
         - Shared Folder
             - Launch VirtualBox -> open Devices -> Shared Folders -> Shared Folders Settings
             - Click Plus Sign -> in Folder Path, click the arrow and select Other
-            - Select the folder(the host) you're using
-
-In the Add Share window, give the share a name (keeping the same name in the guest OS as the host OS is wise). Check Auto-mount and Make permanent, then OK.
+            - Select the folder(the host) you're using              
+            - Add Share -> give the share a name 
+            -  Check Auto-mount and Make permanent -> Click OK
 - Snapshots vs. Templates 
 - Snapshots
     - It captures the entire state of the VM at a given point in time, includes:
         - The state of all the VM's disks.
         - The contents of the VM's memory
-         - VMesettings
+         - VM settings
     - It provide a change log for the virtual disk 
     - Can use to restore a VM to a particular point in time when a system error occurs.
 #### Sceenshot of a snapshot
