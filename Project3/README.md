@@ -1,4 +1,4 @@
-# Project 2 Documentation
+# Project 3 Documentation
 
 ## Container engine 1: Docker
 
@@ -81,6 +81,7 @@
 - Reference Link: https://manpages.ubuntu.com/manpages/groovy/man1/podman-mount.1.html
 
 ###  Building Images - Podman
+- Build a image from a Dockerfile
 - Podman commands are the same as Docker’s
 - Syntax of a Dockerfile
     - `# Comment` : Docker treats lines that begin with # as a comment,
